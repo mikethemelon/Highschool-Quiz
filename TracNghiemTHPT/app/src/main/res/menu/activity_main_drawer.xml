@@ -1,0 +1,46 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+    <group android:checkableBehavior="single">
+        <item
+            android:id="@+id/home"
+            android:icon="@drawable/home"
+            android:title="Home"/>
+    </group>
+            <item android:title="Khoa học xã hội">
+                <menu>
+                    <group android:checkableBehavior="single">
+                        <item
+                        android:id="@+id/su"
+                        android:icon="@drawable/history"
+                        android:title="Lịch Sử"/>
+                        <item
+                            android:id="@+id/nguvan"
+                            android:icon="@drawable/nguvan"
+                            android:title="Ngữ Văn"/>
+                        <item
+                        android:id="@+id/dia"
+                        android:icon="@drawable/geography"
+                        android:title="Địa Lý"/>
+                    </group>
+        </menu>
+    </item>
+
+    <group android:checkableBehavior="single">
+        <item
+            android:id="@+id/info"
+            android:icon="@drawable/info"
+            android:title="Info"/>
+    </group>
+
+    <item android:title="Mở rộng">
+        <menu>
+            <group android:checkableBehavior="single">
+                <item
+                    android:id="@+id/ontap"
+                    android:icon="@drawable/on_tap"
+                    android:title="Ôn tập"/>
+            </group>
+        </menu>
+    </item>
+
+</menu>
